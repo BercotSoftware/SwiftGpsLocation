@@ -29,9 +29,22 @@
 		B56BAA372DC1169C0074EEFD /* GPSViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B56BAA5B2DC12D920074EEFD /* Exceptions for "GPSViewer" folder in "GPSViewer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B56BAA1C2DC1169B0074EEFD /* GPSViewer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B56BAA1F2DC1169B0074EEFD /* GPSViewer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B56BAA5B2DC12D920074EEFD /* Exceptions for "GPSViewer" folder in "GPSViewer" target */,
+			);
 			path = GPSViewer;
 			sourceTree = "<group>";
 		};
@@ -172,6 +185,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
+				ORGANIZATIONNAME = NunjoBiznezz;
 				TargetAttributes = {
 					B56BAA1C2DC1169B0074EEFD = {
 						CreatedOnToolsVersion = 16.2;
@@ -302,6 +316,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -396,8 +411,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GPSViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = L24K6B7744;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPSViewer/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to get GPS coordinates when in use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,8 +442,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GPSViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = L24K6B7744;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPSViewer/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to get GPS coordinates when in use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
